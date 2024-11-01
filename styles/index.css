@@ -22,9 +22,6 @@ main {
   gap: 0.8rem;
 }
 
-#modalDiv{
-  height: 40vh;
-}
 
 #modalDiv>input {
   display: flex;
@@ -34,17 +31,27 @@ main {
   padding: 16px;
   width: 400px;
   border-radius: 8px;
-  margin-right: 8px;
+  gap: 8px;
 }
 
 #modalDiv>button {
+  border-radius:2px;
+  gap: 8px;
   text-align: center;
   width: 15vh;
+  height: 32px;
 }
+
+.buttonClo{
+  color: white;
+  background-color: #6c63ff;
+}
+
 
 dialog{
   border: 1px solid black;
   border-radius: 8px;
+  flex-direction: row-reverse;
 }
 
 
